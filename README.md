@@ -1,9 +1,9 @@
 # gTRAP_Websearch-Tool
 An informative and cumulative database for data related to protein synthesis involving (Gene, Transcription factors, Splicing, Post-translational Modifications, Proteins).
 
-SQL Queries:
+##SQL Queries:
 
-Create query:
+##Create query:
 
 ##Gene table
 Create table Gene (Gene_Id varchar(20) NOT NULL PRIMARY KEY, Gene_Symbol varchar(30), Chromosome_pos varchar(10), Gene_Name varchar(30), Family_Name varchar(50));
