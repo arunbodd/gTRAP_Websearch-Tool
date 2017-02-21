@@ -27,6 +27,8 @@ Create table Modification(Protein_ID varchar(20) NOT NULL PRIMARY KEY, Position 
 ##Variation table
 Create table variation(Protein_ID varchar(20) FOREIGN KEY REFERENCES Protein(Protein_ID),Position int, Original varchar(100), variant varchar(150), Sequence varchar(450));
 
+##Select Queries
+
 ##Selecting only transcription factors with Gene Id:
 Select g.Gene_ID, g.Gene_Symbol, g.Gene_Name, tf.Tf_Name, tf.Start_site, tf.End_site  from Gene G Transcription TF where TF.GeneId=G.Geneid 
 
